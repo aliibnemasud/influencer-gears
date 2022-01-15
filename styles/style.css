@@ -1,0 +1,40 @@
+/* Google font immport */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap');
+</style>
+
+/* Common css file */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*---------------------
+ navbar section css 
+ --------------------*/
+
+ .navbar{
+     
+     display: flex;
+     justify-content: space-between;
+     padding: 40px 0;
+     font-family: 'Poppins', sans-serif;
+     
+     
+ }
+
+ .navbar a{
+     text-decoration: none;
+     margin-right: 10px;
+     color: black;
+ }
+ 
+
+/*---------------------
+ banner section css 
+ --------------------*/
+
+ 
