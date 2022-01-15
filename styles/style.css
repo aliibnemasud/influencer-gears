@@ -111,10 +111,10 @@ body{
      background-color: #0A0826;
  }
 
- footer h1, p {
-     color: white;
-     text-align: center;
- }
+.fot-content {
+        color: white;
+        text-align: center;
+}
 
  .social{
      text-align: center;
@@ -131,4 +131,9 @@ body{
 
  .content {
      padding: 20px 0;
+ }
+
+ .fot-content {
+     color: white;
+     text-align: center;
  }
