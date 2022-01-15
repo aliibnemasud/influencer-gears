@@ -68,16 +68,67 @@ body{
     border: none;
     margin-top: 5%;
 }
+
+/*---------------------
+ popular section css
+ --------------------*/
+
+ .title {
+     text-align: center;
+ }
+
+ .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    padding: 20px 30px;
 }
 
-
-
-
- .card {
-     background-color: lightcyan;
+.card {
+     background-color: #fff;
      width: 300px;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
      padding: 10px;
      border-radius: 5px;
  }
  
+ .star {
+     color: #FB8200;
+ }
+ .blank { 
+     color: #5E6366;
+
+ } 
+
+ .seemore {
+     width: 0 auto;
+ }
+
+
+ /* Footer section */
+
+ footer {
+     background-color: #0A0826;
+ }
+
+ footer h1, p {
+     color: white;
+     text-align: center;
+ }
+
+ .social{
+     text-align: center;
+
+ }
+
+ .icons {
+     padding: 25px;
+     border-radius: 25px;
+     background-color: rgba(214, 214, 214, 0.329);
+     color: white;
+     
+ }
+
+ .content {
+     padding: 20px 0;
+ }
